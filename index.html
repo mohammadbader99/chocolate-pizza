@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+    </style>
+
 </head>
 
 <body>
@@ -16,7 +29,7 @@
         <div id="logo">
             <img src="/img/logo.png" alt="logo">
             <div>
-                <h3>Delicious</h3>
+                <h3>DElicious</h3>
                 <p>THE BEST FOOD BLOG ON THE WEB</p>
             </div>
         </div>
@@ -35,14 +48,14 @@
             </ul>
         </nav>
 
-        <div class="splitter">
+        <div id="headerSplitter">
 
         </div>
     </header>
     <main>
         <h1>Chocolate Pizza</h1>
-        <div id="date">
-            <div>
+        <div id="subtitle">
+            <div id="date">
                 <p>POSTED ON 15 DES 2013/DESSERTS</p>
             </div>
             <div id="print">
@@ -75,71 +88,75 @@
         </div>
 
         <form id="myForm">
-            <fieldset>
-                <div id="left">
+            <fieldset id="mainField">
+                <fieldset id="left">
                     <input type="checkbox"/>
                     <label>11/2 cups milk</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>1/2 cup mascarpone</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>1/2 tsp pink salt</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>1lb Black Mission Figs</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>1/2 cup brown sugar</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>2-4 tbsp water</label>
-                </div>
+                </fieldset>
                 
-                <div id="right">
+                <fieldset id="right">
                     <input type="checkbox"/>
                     <label>11/2 cups heavy cream</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>1/3 granulated sugar</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>2 egg yolks</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>1 lemon, juiced</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>2 tbsp butter</label>
-
+                    <br>
                     <input type="checkbox"/>
                     <label>1 cup honey roasted pecans, roughly chopped</label>
-                </div>
+                </fieldset>
             </fieldset>
         </form>
 
 
-    </main>
-    <footer>
-        <div class="splitter">
+        <div id="footerSplitter">
 
         </div>
 
         <div id="share">
-            <img src="/img/van-pic.png" alt="van">
-            <div>
-                <h6>Vanessa Stevenson</h6>
-                <p>
-                    Food enthusiast, photography fan. Add a pinch of raul foodism and that's 
-                    pretty much who I am.
-                </p>
+            <div id="post">
+                <img src="/img/van-pic.png" alt="van">
+                <div>
+                    <h6>Vanessa Stevenson</h6>
+                    <p>
+                        Food enthusiast, photography fan. Add a pinch of raul foodism and that's 
+                        pretty much who I am.
+                    </p>
+                </div>
             </div>
 
             <button>SHARE RECIPE</button>
         </div>
+    </main>
 
-        <div id="footer">
-            <img src="/img/small-logo.png" alt="logo">
+    <footer>
+        <div>
+            <div class="flourish">
+                <img src="/img/small-logo.png" alt="logo">
+            </div>
             <p>
                 Dellicious © 2013 • All Rights Reserved.
             </p>
